@@ -1,0 +1,12 @@
+$tkwk-webfonts-url: 'http://fonts.googleapis.com/css?family=Neuton|Ek+Mukta';
+$tkwk-sans-font: 'Ek Mukta';
+$tkwk-serif-font: 'Neuton';
+@import "../tools.fonts";
+
+h1 {
+	@include tkwk-sans-font;
+}
+
+p {
+	@include tkwk-serif-font;
+}

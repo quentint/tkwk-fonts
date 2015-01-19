@@ -1,0 +1,12 @@
+$tkwk-webfonts-url: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro';
+$tkwk-sans-font: 'Source Sans Pro';
+$tkwk-serif-font: 'Source Serif Pro';
+@import "../tools.fonts";
+
+h1 {
+	@include tkwk-sans-font;
+}
+
+p {
+	@include tkwk-serif-font;
+}
