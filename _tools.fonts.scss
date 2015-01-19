@@ -1,0 +1,15 @@
+$tkwk-webfonts-url: null !default;
+$tkwk-sans-font: sans-serif !default;
+$tkwk-serif-font: serif !default;
+
+@if $tkwk-webfonts-url {
+	@import url($tkwk-webfonts-url);
+}
+
+@mixin tkwk-sans-font() {
+	font-family: $tkwk-sans-font;
+}
+
+@mixin tkwk-serif-font() {
+	font-family: $tkwk-serif-font;
+}
