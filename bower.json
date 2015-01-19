@@ -1,0 +1,17 @@
+{
+  "name": "tkwk-fonts",
+  "version": "0.1.0",
+  "homepage": "https://github.com/quentint/tkwk-fonts",
+  "authors": [
+    "Quentin <quentin.t@gmail.com>"
+  ],
+  "description": "Simple SASS webfonts utility",
+  "main": "_tools.fonts.scss",
+  "keywords": [
+    "css",
+    "sass",
+    "webfont",
+    "tkwk"
+  ],
+  "license": "MIT"
+}
